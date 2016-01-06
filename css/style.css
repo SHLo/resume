@@ -1,0 +1,52 @@
+h1 {
+    /*font-size: 5em;*/
+}
+h2 {
+    font-size: 5em;
+}
+h3 {
+    font-size: 3.5em;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+#mooc li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted;
+}
+.text-center, h2{
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+#work-exp article {
+    text-align: left;
+}
+#work-exp ul {
+    list-style-type: circle;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    border-color: #6699ff;
+}
+
+body {
+    font-size: 0.5em;
+}
+
+.page-bottom {
+    page-break-after: always;
+}
+
+.no-page-break {
+    page-break-inside:avoid;
+}
