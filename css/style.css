@@ -30,7 +30,7 @@ ul {
 }
 
 main {
-    margin: 20px;
+    margin-bottom: 20px;
 }
 #work-exp article {
     text-align: left;
@@ -58,4 +58,15 @@ body {
 
 .no-page-break {
     page-break-inside:avoid;
+}
+strong {
+    font-weight: 800;
+}
+#top-header {
+    margin-bottom: 0;
+}
+#contact {
+    position: absolute;
+    right: 20px; 
+    top: 40px;
 }
