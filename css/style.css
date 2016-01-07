@@ -1,22 +1,31 @@
 h1 {
-    /*font-size: 5em;*/
+    font-size: 5em;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.vcenter  {
+    display: inline-block;
+        vertical-align: middle;
+            float: none;
 }
 h2 {
-    font-size: 5em;
+    font-size: 4em;
+    color: #e60000;
 }
 h3 {
     font-size: 3.5em;
+}
+#skills h3 {
+    font-size: 2em;
+    margin-top: 0;
 }
 ul {
     list-style-type: none;
     padding: 0;
 }
-#mooc li {
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    border-bottom: 1px dotted;
-}
-.text-center, h2{
+.text-center {
     text-align: center;
 }
 
@@ -26,7 +35,7 @@ main {
 #work-exp article {
     text-align: left;
 }
-#work-exp ul {
+.list-circle {
     list-style-type: circle;
 }
 hr {
